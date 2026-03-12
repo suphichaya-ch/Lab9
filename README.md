@@ -53,18 +53,19 @@ WeatherEye ใช้โครงสร้างแบบ **Clean Architecture** 
 การอธิบาย: รูปนี้แสดงหน้าจอหลักเมื่อเลือกจังหวัดกรุงเทพฯ แอปจะดึงข้อมูลผ่าน WeatherService โดยใช้พิกัดละติจูด/ลองจิจูดของกรุงเทพฯ แสดงอุณหภูมิปัจจุบันที่โดดเด่น (35.6°C) พร้อมคำบรรยายสภาพอากาศ "ท้องฟ้าแจ่มใส" และรายการพยากรณ์ล่วงหน้า 7 วันด้านล่าง
 
 โค้ดปรับขนาด:
-<img src="![alt text](image-3.png)" width="300" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/f4edaa0b-de49-4942-bbbb-b405ea1fac8d" />
 
 2. หน้าพยากรณ์อากาศ: ระยอง
 การอธิบาย: แสดงความสามารถในการเปลี่ยนตำแหน่งพื้นที่ (Location Switching) เมื่อผู้ใช้เลือกจังหวัดระยอง ข้อมูลจะอัปเดตใหม่ทั้งหมดแบบ Real-time ตามพิกัดของจังหวัดนั้นๆ โดยโครงสร้าง UI ยังคงความสม่ำเสมอ (Consistency) ทำให้ผู้ใช้ไม่สับสน
 
-โค้ดปรับขนาด:
-<img src="![alt text](image-4.png)" width="300" />
+
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/1029a1d4-9f24-4159-9bd1-480652370285" />
 
 3. ระบบการค้นหาจังหวัด (Search Functionality)
 การอธิบาย: แสดงส่วนของ Search Bar ที่ทำงานแบบ Dynamic เมื่อผู้ใช้พิมพ์ค้นหา ระบบจะกรองข้อมูลจาก thaiProvinces และแสดงผลลัพธ์เป็น Overlay รายการจังหวัดที่ตรงกับคำค้นหา ช่วยให้เข้าถึงข้อมูลสภาพอากาศของพื้นที่ที่ต้องการได้อย่างรวดเร็ว
 
-โค้ดปรับขนาด:
-<img src="![alt text](image-5.png)" width="300" />
+
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/e207989f-d7f3-443f-95c1-6e2afb2a83b8" />
+
 
 
